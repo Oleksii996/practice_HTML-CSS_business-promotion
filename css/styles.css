@@ -44,6 +44,31 @@ img {
 
 /* #region Common */
 .container {
+  max-width: 1150px;
+  padding: 0 20px;
+  margin: 0 auto;
 }
 
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 0.93;
+  color: #173a56;
+}
 /* #endregion Common */
+
+/* #region Header */
+
+.header-container,
+.header-nav,
+.header-nav-list,
+.header-auth-list {
+  display: flex;
+  align-items: center;
+}
+
+/* #endregion Header*/
