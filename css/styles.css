@@ -71,4 +71,24 @@ img {
   align-items: center;
 }
 
+.header-nav-list {
+  gap: 30px;
+}
+
+.header-nav-link {
+  display: block;
+  padding: 7px 0;
+  line-height: 1.75;
+
+  transition: transform 250ms linear;
+}
+
+.header-nav-link:hover,
+.header-nav-link:focus {
+  transform: scale(1.1);
+}
+
+.header-nav-link.current {
+  font-weight: 600;
+}
 /* #endregion Header*/
