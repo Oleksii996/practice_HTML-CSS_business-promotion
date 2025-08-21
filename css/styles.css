@@ -49,6 +49,23 @@ img {
   margin: 0 auto;
 }
 
+/* #region Text */
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 150%;
+  color: #22343d;
+}
+.paragraph-poppins-18 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 156%;
+  color: #22343d;
+}
+/* #endregion */
+
 .logo {
   display: flex;
   align-items: center;
@@ -81,9 +98,9 @@ img {
 /* #endregion Common */
 
 /* #region Header */
+
 .page-header {
   padding: 19px 0;
-  background-color: #02897a;
 }
 
 .header-container,
@@ -94,9 +111,6 @@ img {
   align-items: center;
 }
 
-.header-container {
-  background-color: #929597;
-}
 .header-nav {
   flex-grow: 1;
   margin-right: 76px;
@@ -149,3 +163,74 @@ img {
 }
 
 /* #endregion Header*/
+
+/* #region Section I-Work at the speed of thought  */
+.page-section-one {
+  margin-bottom: 100px;
+}
+.section-1-container {
+  display: flex;
+  align-items: center;
+  min-height: 555px;
+}
+.text-elements {
+  display: flex;
+  flex-direction: column;
+
+  max-width: 465px;
+
+  margin-right: 35px;
+}
+.headliner-one {
+  margin-bottom: 18px;
+}
+
+.section-1-paragraph {
+  margin-bottom: 45px;
+}
+
+.two-buttons {
+  display: flex;
+  gap: 30px;
+}
+
+.btn-get-started {
+  height: 53px;
+  min-width: 178px;
+
+  font-weight: 700;
+  font-size: 16px;
+  color: #fff;
+}
+
+.btn-watch-the-video {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+
+  font-weight: 600;
+  font-size: 16px;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+
+  background-color: transparent;
+  color: #02897a;
+  fill: #02897a;
+}
+
+.btn-watch-the-video:hover,
+.btn-watch-the-video:focus {
+  fill: #173a56;
+  color: #173a56;
+}
+/* #endregion Section*/
+
+/* #region Section II-Product  was Built Specifically for You */
+.page-section-two {
+  background-color: #bcd0e5;
+  margin-bottom: 50px;
+}
+.section-2-container {
+  background-color: aliceblue;
+}
+/* #endregion */
