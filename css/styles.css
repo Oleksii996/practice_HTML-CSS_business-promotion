@@ -83,6 +83,7 @@ img {
 /* #region Header */
 .page-header {
   padding: 19px 0;
+  background-color: #02897a;
 }
 
 .header-container,
